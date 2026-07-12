@@ -208,7 +208,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&sys_reset'
+  - '&bootloader'
   - RGB BRD
   - RGB BRI
   - ''
@@ -219,8 +219,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&sys_reset'
-  - {t: '&bootloader', type: held}
+  - '&bootloader'
+  - {t: '&sys_reset', type: held}
   - ''
   - ''
   - ''
@@ -233,7 +233,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '&bootloader', type: held}
+  - {t: '&sys_reset', type: held}
   - ''
   - ''
   - ''
