@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - CAPSLOCK
+  - raise
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - lower
   - LEFT SHIFT
   - LALT
   - {t: A, h: LEFT SHIFT}
@@ -111,12 +111,12 @@ layers:
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -159,7 +159,7 @@ layers:
   - RIGHT
   - DEL
   - BSPC
-  - {t: ▽, type: trans}
+  - {type: held}
   - UNDO
   - CUT
   - COPY
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,8 +219,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - '&bootloader'
+  - '&sys_reset'
+  - {t: '&bootloader', type: held}
   - ''
   - ''
   - ''
@@ -233,13 +233,13 @@ layers:
   - ''
   - ''
   - ''
+  - {t: '&bootloader', type: held}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {type: held}
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
