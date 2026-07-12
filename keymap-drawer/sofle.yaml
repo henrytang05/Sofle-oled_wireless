@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['~', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', +, TAB, Q, W, E, R, T, Y, U, I, O, P, _, ESCAPE, A, S, D, F, G, H, J, K, L, ;, '''', LEFT GUI,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, '', LEFT SHIFT, LALT, LCTRL, lower, SPACE, ENTER, SPACE, BACKSPACE, DELETE, raise]
+  default:
+  - '~'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - +
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - _
+  - ESCAPE
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - CAPSLOCK
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - LEFT SHIFT
+  - LALT
+  - {t: A, h: LEFT SHIFT}
+  - ENTER
+  - lower
+  - raise
+  - SPACE
+  - BACKSPACE
+  - DELETE
+  - raise
   lower:
   - ESC
   - '!'
@@ -56,8 +115,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,11 +178,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -178,10 +237,10 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - {type: held}
   - {type: held}
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
