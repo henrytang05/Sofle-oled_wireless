@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - +
+  - '='
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - _
+  - '-'
   - ESCAPE
   - {t: A, h: LEFT META}
   - {t: S, h: LEFT ALT}
