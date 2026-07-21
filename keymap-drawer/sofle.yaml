@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - '~'
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -57,8 +57,8 @@ layers:
   - ENTER
   - lower
   - raise
-  - SPACE
   - BACKSPACE
+  - SPACE
   - DELETE
   - raise
   lower:
