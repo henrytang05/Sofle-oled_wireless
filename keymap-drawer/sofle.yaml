@@ -26,16 +26,16 @@ layers:
   - P
   - _
   - ESCAPE
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT META}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT SHIFT}
+  - {t: F, h: LCTRL}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHIFT}
+  - {t: L, h: RALT}
+  - {t: ;, h: RMETA}
   - ''''
   - raise
   - Z
@@ -53,7 +53,7 @@ layers:
   - lower
   - LEFT SHIFT
   - LALT
-  - {t: SPACE, h: Hyper+LEFT SHIFT}
+  - {t: SPACE, h: Alt+Ctl+Gui+LEFT SHIFT}
   - ENTER
   - lower
   - raise
