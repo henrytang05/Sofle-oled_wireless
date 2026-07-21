@@ -53,7 +53,7 @@ layers:
   - lower
   - LEFT SHIFT
   - LALT
-  - {t: SPACE, h: Alt+Ctl+Gui+LEFT SHIFT}
+  - {t: SPACE, h: Alt+Gui+LCTRL}
   - ENTER
   - lower
   - raise
