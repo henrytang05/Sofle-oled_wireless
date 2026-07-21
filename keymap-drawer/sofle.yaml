@@ -92,10 +92,10 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - )
   - '|'
   - {t: ▽, type: trans}
