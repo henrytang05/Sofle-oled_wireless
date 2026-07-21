@@ -53,7 +53,7 @@ layers:
   - lower
   - LEFT SHIFT
   - LALT
-  - {t: B, h: LEFT SHIFT}
+  - {t: SPACE, h: Hyper+LEFT SHIFT}
   - ENTER
   - lower
   - raise
