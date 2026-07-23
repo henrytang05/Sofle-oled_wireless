@@ -67,8 +67,8 @@ layers:
   - LANG2
   - LANGUAGE 3
   - LANGUAGE 4
-  - LANGUAGE 5
-  - LANG6
+  - '%'
+  - ^
   - '&'
   - '*'
   - (
@@ -87,10 +87,10 @@ layers:
   - ']'
   - \
   - ESCAPE
-  - '6'
-  - '7'
-  - '8'
-  - '9'
+  - {t: LEFT META, h: '6'}
+  - {t: '7', h: LEFT ALT}
+  - {t: '8', h: LEFT SHIFT}
+  - {t: '9', h: LEFT CONTROL}
   - '0'
   - LEFT ARROW
   - DOWN ARROW
@@ -99,11 +99,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - +
+  - '-'
+  - '*'
+  - /
+  - '='
   - {t: ▽, type: trans}
   - ''
   - ''
