@@ -63,12 +63,12 @@ layers:
   - ''
   lower:
   - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
+  - LANGUAGE 1
+  - LANGUAGE 2
+  - LANGUAGE 3
+  - LANGUAGE 4
+  - LANGUAGE 5
+  - LANG6
   - '&'
   - '*'
   - (
