@@ -297,11 +297,11 @@ layers:
   - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
