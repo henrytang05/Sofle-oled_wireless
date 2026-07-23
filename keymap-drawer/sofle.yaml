@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RCTRL}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: RMETA}
+  - {t: ;, h: RIGHT META}
   - ''''
   - raise
   - Z
@@ -51,18 +51,18 @@ layers:
   - .
   - /
   - lower
-  - LEFT SHIFT
-  - LALT
+  - ''
+  - LEFT META
   - {t: SPACE, h: Alt+Gui+LCTRL}
   - ENTER
   - lower
   - raise
-  - BACKSPACE
   - SPACE
+  - BACKSPACE
   - DELETE
-  - raise
+  - ''
   lower:
-  - ESC
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -74,43 +74,43 @@ layers:
   - (
   - )
   - '='
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
   - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - \
+  - ESCAPE
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - )
-  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
-  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,35 +135,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: normal, h: toggle}
   - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
-  - BSPC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - W
+  - ''
   - ''
   - ''
   - ''
@@ -244,3 +244,64 @@ layers:
   - ''
   - ''
   - ''
+  normal:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: default, h: toggle}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
